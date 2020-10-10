@@ -4,6 +4,7 @@ let currentSlide = 0;
 let sliderWidth = document.querySelector('.slider--width');
 let sliderControls = document.querySelector('.slider--controls');
 let slider = document.querySelector('.slider');
+let sliderItem = document.querySelector('.slider--item');
 
 sliderWidth.style.width = `calc(100vw * ${totalSliders})`;
 sliderControls.style.height = `${slider.clientHeight}px`;
@@ -25,7 +26,7 @@ function goNext(){
 }
 
 function updateMargin() {
-    let newMargin = (currentSlide * document.body.clientWidth)
+    let newMargin = (currentSlide * sliderItem.clientWidth)
     sliderWidth.style.marginLeft = `-${newMargin}px`;
 }
 
