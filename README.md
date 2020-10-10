@@ -17,7 +17,7 @@
 
 ## 💻 Projeto
 
-Urna Eletrônica é um projeto simples em Javascript, html e css. Foi feito durante o curso da [B7web](https://alunos.b7web.com.br/).
+Slider é um projeto simples em Javascript, html e css. Foi feito durante o curso da [B7web](https://alunos.b7web.com.br/).
 
 ## - 🌐 Web
 
